@@ -51,7 +51,7 @@ module.exports = {
         });
       }
 
-      const text = getMessageText(
+      const text = getMessageText( 
         interaction.options.getString('message', true)
       );
 
